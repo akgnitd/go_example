@@ -7,17 +7,17 @@ https://go.dev/play/
 
 # Basic Commands
 
-go version
+go version: print Go version
 
-go build
+go build: compile packages and dependencies
 
-go run
+go run: compile and run Go program
 
-go clean
+go clean: remove object files and cached files
 
-go env
+go env: print Go environment information
 
-go help
+go help: go help
 
 
 # Famous Packages
