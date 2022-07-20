@@ -46,5 +46,5 @@ $ /.hello
 # Note:
 
 main package is the starting point to run the program
-func main() - main function where the program execution begins
+func main() - main function where the program execution begins here
 
