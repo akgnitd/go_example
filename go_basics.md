@@ -12,7 +12,7 @@ chan	else	Goto	package	Switch
 const	fallthrough	if	range	Type
 continue	for	import	return	
 
-## Variables
+# Variables
 
 #### var a = "Hello World"
 #### var a string = "Hello"
@@ -26,3 +26,20 @@ continue	for	import	return
 There is some constraint enforced by the language here
 not possible to use short variable declaration outside a function, but otherwise, anything goes.
 
+# Setting up the development environment
+### Create a root folder for our workspace
+
+mkdir ~/goworkspace
+cd goworkspace
+export GOPATH=`pwd`
+
+
+### Create folders and files
+
+mkdir -p src/github.com/callistaenterprise
+cd src/github.com/callistaenterprise
+mkdir -p goblog/accountservice
+cd goblog/accountservice
+touch main.go
+mkdir service
+Root Folder - $GOPATH/src/github.com/callistaenterprise/goblog
