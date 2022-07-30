@@ -42,4 +42,8 @@ mkdir -p goblog/accountservice
 cd goblog/accountservice
 touch main.go
 mkdir service
-Root Folder - $GOPATH/src/github.com/callistaenterprise/goblog
+
+# Root Folder - $GOPATH/src/github.com/callistaenterprise/goblog
+
+
+
